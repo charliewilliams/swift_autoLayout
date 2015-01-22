@@ -7,4 +7,4 @@ It's also written in Swift, because Swift is exciting and awesome.
 
 Feedback welcome! @buildsucceeded
 
-![Screenshot](https://github.com/charliewilliams/swift_autoLayout/Screenshot.jpg?raw=true)
+![Screenshot](https://github.com/charliewilliams/swift_autoLayout/blob/master/Screenshot.png?raw=true)
