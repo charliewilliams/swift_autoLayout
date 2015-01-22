@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C0DE39191A710A9D00D889CD"
-               BuildableName = "Auto Layout advanced Swift.app"
-               BlueprintName = "Auto Layout advanced Swift"
-               ReferencedContainer = "container:Auto Layout advanced Swift.xcodeproj">
+               BuildableName = "Swift AutoLayout.app"
+               BlueprintName = "Swift Auto Layout"
+               ReferencedContainer = "container:Swift Auto Layout.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -31,7 +31,7 @@
                BlueprintIdentifier = "C0DE392E1A710A9D00D889CD"
                BuildableName = "Auto Layout advanced SwiftTests.xctest"
                BlueprintName = "Auto Layout advanced SwiftTests"
-               ReferencedContainer = "container:Auto Layout advanced Swift.xcodeproj">
+               ReferencedContainer = "container:Swift Auto Layout.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -49,7 +49,7 @@
                BlueprintIdentifier = "C0DE392E1A710A9D00D889CD"
                BuildableName = "Auto Layout advanced SwiftTests.xctest"
                BlueprintName = "Auto Layout advanced SwiftTests"
-               ReferencedContainer = "container:Auto Layout advanced Swift.xcodeproj">
+               ReferencedContainer = "container:Swift Auto Layout.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C0DE39191A710A9D00D889CD"
-            BuildableName = "Auto Layout advanced Swift.app"
-            BlueprintName = "Auto Layout advanced Swift"
-            ReferencedContainer = "container:Auto Layout advanced Swift.xcodeproj">
+            BuildableName = "Swift AutoLayout.app"
+            BlueprintName = "Swift Auto Layout"
+            ReferencedContainer = "container:Swift Auto Layout.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C0DE39191A710A9D00D889CD"
-            BuildableName = "Auto Layout advanced Swift.app"
-            BlueprintName = "Auto Layout advanced Swift"
-            ReferencedContainer = "container:Auto Layout advanced Swift.xcodeproj">
+            BuildableName = "Swift AutoLayout.app"
+            BlueprintName = "Swift Auto Layout"
+            ReferencedContainer = "container:Swift Auto Layout.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C0DE39191A710A9D00D889CD"
-            BuildableName = "Auto Layout advanced Swift.app"
-            BlueprintName = "Auto Layout advanced Swift"
-            ReferencedContainer = "container:Auto Layout advanced Swift.xcodeproj">
+            BuildableName = "Swift AutoLayout.app"
+            BlueprintName = "Swift Auto Layout"
+            ReferencedContainer = "container:Swift Auto Layout.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

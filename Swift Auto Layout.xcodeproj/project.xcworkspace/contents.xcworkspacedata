@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Auto Layout advanced Swift.xcodeproj">
+      location = "self:Swift Auto Layout.xcodeproj">
    </FileRef>
 </Workspace>

@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C0DE39201A710A9D00D889CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DE391F1A710A9D00D889CD /* AppDelegate.swift */; };
-		C0DE39221A710A9D00D889CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DE39211A710A9D00D889CD /* ViewController.swift */; };
-		C0DE39251A710A9D00D889CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0DE39231A710A9D00D889CD /* Main.storyboard */; };
-		C0DE39271A710A9D00D889CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0DE39261A710A9D00D889CD /* Images.xcassets */; };
-		C0DE392A1A710A9D00D889CD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0DE39281A710A9D00D889CD /* LaunchScreen.xib */; };
+		C0DE39401A712DD100D889CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DE393F1A712DD100D889CD /* AppDelegate.swift */; };
+		C0DE39421A712DD800D889CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DE39411A712DD800D889CD /* ViewController.swift */; };
+		C0DE39441A712DED00D889CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0DE39431A712DED00D889CD /* Images.xcassets */; };
+		C0DE394C1A712E0700D889CD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0DE39481A712E0700D889CD /* LaunchScreen.xib */; };
+		C0DE394D1A712E0700D889CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0DE394A1A712E0700D889CD /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C0DE391A1A710A9D00D889CD /* Auto Layout advanced Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Auto Layout advanced Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0DE391E1A710A9D00D889CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C0DE391F1A710A9D00D889CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C0DE39211A710A9D00D889CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C0DE39241A710A9D00D889CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C0DE39261A710A9D00D889CD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		C0DE39291A710A9D00D889CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C0DE391A1A710A9D00D889CD /* Swift Auto Layout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Auto Layout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0DE393F1A712DD100D889CD /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "Swift Auto Layout/AppDelegate.swift"; sourceTree = SOURCE_ROOT; };
+		C0DE39411A712DD800D889CD /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "Swift Auto Layout/ViewController.swift"; sourceTree = SOURCE_ROOT; };
+		C0DE39431A712DED00D889CD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "Swift Auto Layout/Images.xcassets"; sourceTree = SOURCE_ROOT; };
+		C0DE39451A712DF400D889CD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Swift Auto Layout/Info.plist"; sourceTree = SOURCE_ROOT; };
+		C0DE39491A712E0700D889CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		C0DE394B1A712E0700D889CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +38,7 @@
 		C0DE39111A710A9D00D889CD = {
 			isa = PBXGroup;
 			children = (
-				C0DE391C1A710A9D00D889CD /* Auto Layout advanced Swift */,
+				C0DE391C1A710A9D00D889CD /* Swift Auto Layout */,
 				C0DE391B1A710A9D00D889CD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,28 +46,29 @@
 		C0DE391B1A710A9D00D889CD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C0DE391A1A710A9D00D889CD /* Auto Layout advanced Swift.app */,
+				C0DE391A1A710A9D00D889CD /* Swift Auto Layout.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C0DE391C1A710A9D00D889CD /* Auto Layout advanced Swift */ = {
+		C0DE391C1A710A9D00D889CD /* Swift Auto Layout */ = {
 			isa = PBXGroup;
 			children = (
-				C0DE391F1A710A9D00D889CD /* AppDelegate.swift */,
-				C0DE39211A710A9D00D889CD /* ViewController.swift */,
-				C0DE39231A710A9D00D889CD /* Main.storyboard */,
-				C0DE39261A710A9D00D889CD /* Images.xcassets */,
-				C0DE39281A710A9D00D889CD /* LaunchScreen.xib */,
+				C0DE393F1A712DD100D889CD /* AppDelegate.swift */,
+				C0DE39411A712DD800D889CD /* ViewController.swift */,
+				C0DE394A1A712E0700D889CD /* Main.storyboard */,
+				C0DE39431A712DED00D889CD /* Images.xcassets */,
+				C0DE39481A712E0700D889CD /* LaunchScreen.xib */,
 				C0DE391D1A710A9D00D889CD /* Supporting Files */,
 			);
+			name = "Swift Auto Layout";
 			path = "Auto Layout advanced Swift";
 			sourceTree = "<group>";
 		};
 		C0DE391D1A710A9D00D889CD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C0DE391E1A710A9D00D889CD /* Info.plist */,
+				C0DE39451A712DF400D889CD /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -75,9 +76,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C0DE39191A710A9D00D889CD /* Auto Layout advanced Swift */ = {
+		C0DE39191A710A9D00D889CD /* Swift Auto Layout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C0DE39391A710A9D00D889CD /* Build configuration list for PBXNativeTarget "Auto Layout advanced Swift" */;
+			buildConfigurationList = C0DE39391A710A9D00D889CD /* Build configuration list for PBXNativeTarget "Swift Auto Layout" */;
 			buildPhases = (
 				C0DE39161A710A9D00D889CD /* Sources */,
 				C0DE39171A710A9D00D889CD /* Frameworks */,
@@ -87,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = "Auto Layout advanced Swift";
+			name = "Swift Auto Layout";
 			productName = "Auto Layout advanced Swift";
-			productReference = C0DE391A1A710A9D00D889CD /* Auto Layout advanced Swift.app */;
+			productReference = C0DE391A1A710A9D00D889CD /* Swift Auto Layout.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -106,7 +107,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C0DE39151A710A9D00D889CD /* Build configuration list for PBXProject "Auto Layout advanced Swift" */;
+			buildConfigurationList = C0DE39151A710A9D00D889CD /* Build configuration list for PBXProject "Swift Auto Layout" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -119,7 +120,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C0DE39191A710A9D00D889CD /* Auto Layout advanced Swift */,
+				C0DE39191A710A9D00D889CD /* Swift Auto Layout */,
 			);
 		};
 /* End PBXProject section */
@@ -129,9 +130,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0DE39251A710A9D00D889CD /* Main.storyboard in Resources */,
-				C0DE392A1A710A9D00D889CD /* LaunchScreen.xib in Resources */,
-				C0DE39271A710A9D00D889CD /* Images.xcassets in Resources */,
+				C0DE394C1A712E0700D889CD /* LaunchScreen.xib in Resources */,
+				C0DE394D1A712E0700D889CD /* Main.storyboard in Resources */,
+				C0DE39441A712DED00D889CD /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,28 +143,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0DE39221A710A9D00D889CD /* ViewController.swift in Sources */,
-				C0DE39201A710A9D00D889CD /* AppDelegate.swift in Sources */,
+				C0DE39421A712DD800D889CD /* ViewController.swift in Sources */,
+				C0DE39401A712DD100D889CD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C0DE39231A710A9D00D889CD /* Main.storyboard */ = {
+		C0DE39481A712E0700D889CD /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C0DE39241A710A9D00D889CD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C0DE39281A710A9D00D889CD /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C0DE39291A710A9D00D889CD /* Base */,
+				C0DE39491A712E0700D889CD /* Base */,
 			);
 			name = LaunchScreen.xib;
+			path = "../Swift Auto Layout/Base.lproj";
+			sourceTree = "<group>";
+		};
+		C0DE394A1A712E0700D889CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0DE394B1A712E0700D889CD /* Base */,
+			);
+			name = Main.storyboard;
+			path = "../Swift Auto Layout/Base.lproj";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -250,9 +253,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Auto Layout advanced Swift/Info.plist";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "$(SRCROOT)/Swift Auto Layout/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Swift Auto Layout";
 			};
 			name = Debug;
 		};
@@ -260,16 +264,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Auto Layout advanced Swift/Info.plist";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "$(SRCROOT)/Swift Auto Layout/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Swift Auto Layout";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C0DE39151A710A9D00D889CD /* Build configuration list for PBXProject "Auto Layout advanced Swift" */ = {
+		C0DE39151A710A9D00D889CD /* Build configuration list for PBXProject "Swift Auto Layout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C0DE39371A710A9D00D889CD /* Debug */,
@@ -278,7 +283,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C0DE39391A710A9D00D889CD /* Build configuration list for PBXNativeTarget "Auto Layout advanced Swift" */ = {
+		C0DE39391A710A9D00D889CD /* Build configuration list for PBXNativeTarget "Swift Auto Layout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C0DE393A1A710A9D00D889CD /* Debug */,
