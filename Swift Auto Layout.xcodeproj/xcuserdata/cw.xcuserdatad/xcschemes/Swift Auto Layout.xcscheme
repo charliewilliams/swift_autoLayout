@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C0DE39191A710A9D00D889CD"
-               BuildableName = "Swift AutoLayout.app"
+               BuildableName = "Swift Auto Layout.app"
                BlueprintName = "Swift Auto Layout"
                ReferencedContainer = "container:Swift Auto Layout.xcodeproj">
             </BuildableReference>
@@ -57,7 +57,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C0DE39191A710A9D00D889CD"
-            BuildableName = "Swift AutoLayout.app"
+            BuildableName = "Swift Auto Layout.app"
             BlueprintName = "Swift Auto Layout"
             ReferencedContainer = "container:Swift Auto Layout.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C0DE39191A710A9D00D889CD"
-            BuildableName = "Swift AutoLayout.app"
+            BuildableName = "Swift Auto Layout.app"
             BlueprintName = "Swift Auto Layout"
             ReferencedContainer = "container:Swift Auto Layout.xcodeproj">
          </BuildableReference>
@@ -94,7 +94,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C0DE39191A710A9D00D889CD"
-            BuildableName = "Swift AutoLayout.app"
+            BuildableName = "Swift Auto Layout.app"
             BlueprintName = "Swift Auto Layout"
             ReferencedContainer = "container:Swift Auto Layout.xcodeproj">
          </BuildableReference>
