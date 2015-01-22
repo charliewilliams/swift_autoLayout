@@ -6,3 +6,5 @@ The example app's UI shows 5 buttons, evenly spaced vertically in their containi
 It's also written in Swift, because Swift is exciting and awesome.
 
 Feedback welcome! @buildsucceeded
+
+![Screenshot](/Screenshot.jpg?raw=true)
