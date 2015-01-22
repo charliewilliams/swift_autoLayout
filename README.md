@@ -7,4 +7,4 @@ It's also written in Swift, because Swift is exciting and awesome.
 
 Feedback welcome! @buildsucceeded
 
-![Screenshot](/Screenshot.jpg?raw=true)
+![Screenshot](Screenshot.jpg?raw=true)
