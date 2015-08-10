@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Auto Layout advanced Swift
+//  Auto Layout in Swift 2.0
 //
 //  Created by Charlie Williams on 22/01/2015.
 //  Copyright (c) 2015 Charlie Williams. All rights reserved.

@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  Auto Layout advanced Swift
+//  Auto Layout in Swift 2.0
 //
 //  Created by Charlie Williams on 22/01/2015.
 //  Copyright (c) 2015 Charlie Williams. All rights reserved.
@@ -21,37 +21,28 @@ class ViewController: UIViewController {
         return [button1, button2, button3, button4, button5];
     }
     
-    var buttonConstraints: [AnyObject]?
+    var buttonConstraints: [NSLayoutConstraint]?
     
     override func viewWillAppear(animated: Bool) {
-        
         super.viewWillAppear(animated)
         updateLayout()
     }
     
     @IBAction func buttonPressed(sender: UIButton) {
-        
         sender.hidden = true
         updateLayout()
     }
     
     @IBAction func resetPressed(sender: UIButton?) {
-        
         for b in buttons {
             b.hidden = false
         }
         
         updateLayout()
     }
-
-    func updateLayout() {
+    
+    func visibleButtonsWithHeight() -> ([UIButton], CGFloat) {
         
-        // Remove the previous constraints to avoid conflict
-        if (buttonConstraints != nil) {
-            view.removeConstraints(buttonConstraints!)
-        }
-        
-        // Get info about the currently-visible buttons
         var visibleButtons: [UIButton] = []
         var totalButtonHeight: CGFloat = 0
         
@@ -62,10 +53,17 @@ class ViewController: UIViewController {
                 totalButtonHeight += b.bounds.size.height
             }
         }
+
+        return (visibleButtons, totalButtonHeight)
+    }
+
+    func updateLayout() {
+        
+        let (visibleButtons, totalButtonHeight) = visibleButtonsWithHeight()
         
         // Don't allow hiding last button
-        if visibleButtons.count == 0 {
-            self.resetPressed(nil)
+        guard visibleButtons.count > 0 else {
+            resetPressed(nil)
             return
         }
         
@@ -79,9 +77,9 @@ class ViewController: UIViewController {
         // This first line says "from the superview down to the top of the next view, leave at least (interbuttonSpacing) worth of space".
         var formatString = "V:|-(>=\(interButtonSpacing))-"
         
-        var views: NSMutableDictionary = NSMutableDictionary()
+        var views = [String:UIButton]()
         
-        for (index, button) in enumerate(visibleButtons) {
+        for (index, button) in visibleButtons.enumerate() {
             
             let buttonName = "button\(index)"
             var thisSpacing = interButtonSpacing
@@ -103,19 +101,23 @@ class ViewController: UIViewController {
         
         // At this point, on a 4" phone, before hiding any buttons, the format string reads like so:
         // "V:|-(>=51.6667)-[button0]-(51.6667)-[button1]-(51.6667)-[button2]-(51.6667)-[button3]-(51.6667)-[button4]-(95.6667)-|"
+        let constraints = NSLayoutConstraint.constraintsWithVisualFormat(formatString, options: NSLayoutFormatOptions(rawValue: 0), metrics: nil, views: views)
         
-        let constraints = NSLayoutConstraint.constraintsWithVisualFormat(formatString, options: NSLayoutFormatOptions(0), metrics: nil, views: views)
+        // Remove the previous constraints to avoid conflict
+        if let buttonConstraints = buttonConstraints {
+            view.removeConstraints(buttonConstraints)
+        }
+        
         view.addConstraints(constraints)
-        self.buttonConstraints = constraints
+        buttonConstraints = constraints
         
-        UIView.animateWithDuration(0.6, animations: { () -> Void in
+        UIView.animateWithDuration(0.6) {
             self.view.layoutIfNeeded()
-        })
+        }
     }
 
     func getAvailableHeight() -> CGFloat {
-        
-        return view.bounds.size.height - (toolBar.bounds.size.height + (navigationController?.navigationBar.bounds.size.height)! + UIApplication.sharedApplication().statusBarFrame.size.height)
+        return view.bounds.size.height - toolBar.bounds.size.height
     }
 }
 
